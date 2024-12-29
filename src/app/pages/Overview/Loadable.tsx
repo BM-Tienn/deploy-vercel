@@ -1,0 +1,10 @@
+/**
+ * Asynchronously loads the component for ObjectDetail
+ */
+
+import { lazyLoad } from 'utils/loadable';
+
+export const Overview = lazyLoad(
+  () => import('./index'),
+  module => module.Overview,
+);

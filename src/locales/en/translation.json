@@ -1,0 +1,403 @@
+{
+  "app": {
+    "logout": "Logout",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "warning": "Warning"
+  },
+  "errors": {
+    "access_denied": "Access denied!",
+    "error": "Error",
+    "success": "Success",
+    "error_message": "Error Message",
+    "error_params": "Error Parameters",
+    "success_message": "Operation successful!",
+    "internal_server_error": "Server connect errors",
+    "unauthorized": "Unauthorized OR Access denied!"
+  },
+  "sort_filter": {
+    "none": "None",
+    "update": "Update",
+    "title": "Sort",
+    "asc": "Ascending",
+    "desc": "Descending"
+  },
+  "view_filter": {
+    "title": "Display"
+  },
+  "view_mode": {
+    "title": "Display"
+  },
+  "type_filter": {
+    "update": "Update",
+    "title": "Filter",
+    "and": "And",
+    "or": "Or",
+    "condition": "Condition",
+    "reset": "Reset",
+    "types": {
+      "equal": "equal with",
+      "bigger_than": "bigger than",
+      "smaller_than": "smaller than",
+      "includes": "includes",
+      "not_includes": "not includes",
+      "alike": "alike",
+      "not_alike": "not alike",
+      "before": "before day",
+      "after": "after day"
+    }
+  },
+  "media_library": {
+    "title": "Media Library",
+    "new_folder": "New Folder",
+    "create": "Create",
+    "close": "Close",
+    "save": "Save",
+    "delete": {
+      "name": "Delete file",
+      "title": "Delete the file",
+      "loading": "Deleting...",
+      "description": "Are you sure to delete this file?",
+      "message": "This action cannot be undone.",
+      "submit": "Yes",
+      "cancel": "No"
+    },
+    "upload": {
+      "title": "Upload",
+      "description": "Drag & Drop your files or <span class='filepond--label-action'>Browse</span>"
+    },
+    "modal": {
+      "title": "Media Library",
+      "submit": "Confirm"
+    },
+    "errors": {
+      "detail": {
+        "not_found": "Asset not found",
+        "duplicate": "Already exists",
+        "update_errors": "Asset update false.",
+        "invalid_or_missing": "Asset type invalid"
+      }
+    },
+    "export": "Export",
+    "display": "Display",
+    "id": "Id",
+    "key": "Key",
+    "filename": "File Name",
+    "type": "Type",
+    "file_size": "File Size",
+    "file_type": "File Type",
+    "path": "Path",
+    "creation_date": "Created",
+    "modification_date": "Modified",
+    "sidebar_label": "View Project Info",
+    "sidebar_title": "General",
+    "detail": {
+      "meta_title": "Media Library Detail",
+      "preview_title": "Preview",
+      "version_title": "Versions",
+      "video_not_support": "This video format is not supported.",
+      "meta_data": {
+        "title": "Meta Data",
+        "create": "Add Item",
+        "delete": "Remove",
+        "title_data": "Data",
+        "title_language": "Language",
+        "title_name": "Name",
+        "title_type": "Type",
+        "create_input": "Add Type Input",
+        "create_checkbox": "Add Type Checkbox",
+        "create_textarea": "Add Type Textarea",
+        "create_date": "Add Type Date",
+        "create_object": "Add Type Object",
+        "create_asset": "Add Type Asset",
+        "create_document": "Add Type Document"
+      }
+    },
+    "success": {
+      "rename_success": "Media Library rename success",
+      "create_success": "Create Media Library success",
+      "update_success": "Media Library update success.",
+      "delete_success": "Media Library delete success."
+    }
+  },
+  "object": {
+    "publish": "Publish",
+    "unpublish": "UnPublish",
+    "title": "Object",
+    "selected": "Selected",
+    "create": "Create",
+    "new": "New",
+    "close": "Close",
+    "cancel": "Cancel",
+    "delete": {
+      "name": "Delete object",
+      "title": "Delete the object",
+      "description": "Are you sure to delete this object?",
+      "message": "This action cannot be undone."
+    },
+    "modal": {
+      "title": "Media Library",
+      "submit": "Confirm"
+    },
+    "export": "Export",
+    "display": "Display",
+    "errors": {
+      "class": {
+        "not_found": "Class not found.",
+        "invalid_or_missing_visible_fields": "Invalid or missing visible fields."
+      },
+      "detail": {
+        "not_found": "Object not found",
+        "duplicate": "Already exists",
+        "update_errors": "Object update false."
+      }
+    },
+    "success": {
+      "create_success": "Create success",
+      "update_success": "Object update success.",
+      "delete_success": "Object delete success."
+    },
+    "select_language": "Select Language",
+    "id": "Id",
+    "key": "Key",
+    "status": "Status",
+    "path": "Path",
+    "creation_date": "Created",
+    "modification_date": "Modified",
+    "sidebar_label": "View Project Info",
+    "sidebar_title": "General"
+  },
+  "pages": {
+    "type": "Type",
+    "save_setting": "Save Setting",
+    "save_draft": "Save Draft",
+    "publish": "Publish",
+    "unpublish": "UnPublish",
+    "title": "Pages",
+    "selected": "Selected",
+    "create": "Create",
+    "close": "Close",
+    "cancel": "Cancel",
+    "delete": {
+      "name": "Delete pages",
+      "title": "Delete the pages",
+      "description": "Are you sure to delete this pages?",
+      "message": "This action cannot be undone."
+    },
+    "modal": {
+      "title": {
+        "page": "Create Pages",
+        "snippet": "Create Snippet",
+        "email": "Create Email",
+        "link": "Create Link",
+        "hard_link": "Create Hard Link"
+      },
+      "add": {
+        "page": "Add Pages",
+        "snippet": "Add Snippet",
+        "email": "Add Email",
+        "link": "Add Link",
+        "hard_link": "Add Hard Link"
+      },
+      "submit": "Create"
+    },
+    "export": "Export",
+    "display": "Display",
+    "errors": {
+      "detail": {
+        "not_found": "Pages not found",
+        "duplicate": "Already exists",
+        "create_errors": "Create Errors",
+        "update_errors": "Pages update false."
+      }
+    },
+    "success": {
+      "create_success": "Create success",
+      "update_success": "Pages update success.",
+      "delete_success": "Pages delete success.",
+      "rename_success": "Pages Rename success.",
+      "setting_success": "Pages Setting success."
+    },
+    "rules": {
+      "key_required": "Vui lòng nhập tên!"
+    },
+    "id": "Id",
+    "key": "Key",
+    "status": "Status",
+    "path": "Path",
+    "creation_date": "Created",
+    "modification_date": "Modified",
+    "sidebar_label": "View Project Info",
+    "sidebar_title": "General",
+    "detail": {
+      "meta_title": "Page detail edit",
+      "edit_title": "Edit",
+      "setting_title": "Seo & Setting",
+      "version_title": "Versions",
+      "properties_title": "Navigation & Properties"
+    }
+  },
+  "report": {
+    "name": "Report",
+    "title": "Report",
+    "errors": {
+      "detail": {
+        "not_found": "Role not found",
+        "duplicate": "Already exists",
+        "create_errors": "Create Errors",
+        "update_errors": "Role update false."
+      }
+    }
+  },
+  "indexing": {
+    "title": "Indexing",
+    "create": "Add New Indexing",
+    "close": "Close",
+    "cancel": "Cancel",
+    "selected": "Selected",
+    "modal": {
+      "create_title": "Create Submit",
+      "url_label": "Url",
+      "preview_data": "Preview Data"
+    },
+    "save": "Save",
+    "errors": {
+      "detail": {
+        "not_found": "Indexing not found",
+        "duplicate": "Already exists",
+        "create_errors": "Create Errors",
+        "update_errors": "Indexing update false.",
+        "invalid_type": "Invalid type provided",
+        "already_exists": "Indexing already exists"
+      }
+    },
+    "success": {
+      "create_success": "Create success",
+      "update_success": "Indexing update success.",
+      "delete_success": "Indexing delete success.",
+      "update_submit_success": "Update submit indexing success",
+      "delete_submit_success": "Delete submit indexing success",
+      "inspection_success": "Inspection success",
+      "multi_success": "Multi success"
+    },
+    "title_data": {
+      "request": "Index Request",
+      "status": "Index Status",
+      "setting": "API Setting",
+      "export": "Export",
+      "update_submit": "Update Submit",
+      "delete_submit": "Delete Submit"
+    },
+    "delete": {
+      "name": "Delete indexing",
+      "title": "Delete the indexing",
+      "description": "Are you sure to delete this indexing?",
+      "message": "This action cannot be undone."
+    },
+    "setting": {
+      "key": "Key",
+      "object": "Object",
+      "document": "Document",
+      "save": "Save changes",
+      "uncheckAll": "Uncheck All",
+      "checkAll": "Check All"
+    }
+  },
+  "role": {
+    "title": "Role",
+    "create": "Add New Role",
+    "close": "Close",
+    "cancel": "Cancel",
+    "selected": "Selected",
+    "modal": {
+      "title": "Create Role",
+      "name_label": "Role Name"
+    },
+    "export": "Export",
+    "save": "Save",
+    "delete": {
+      "name": "Delete role",
+      "title": "Delete the role",
+      "description": "Are you sure to delete this role?",
+      "message": "This action cannot be undone."
+    },
+    "errors": {
+      "detail": {
+        "not_found": "Role not found",
+        "duplicate": "Already exists",
+        "create_errors": "Create Errors",
+        "update_errors": "Role update false."
+      }
+    },
+    "success": {
+      "create_success": "Create success",
+      "update_success": "Role update success.",
+      "delete_success": "Role delete success."
+    }
+  },
+  "seo_http": {
+    "title": "404 - 301",
+    "create": "Create",
+    "title_data": {
+      "monitor": "404 Monitor",
+      "redirect": "301 Redirect",
+      "setting": "Setting",
+      "export": "Export"
+    },
+    "success": {
+      "delete_success": "Delete success.",
+      "truncate_success": "Delete truncate success.",
+      "create_success": "Create success",
+      "redirect": {
+        "update_success": "Update Redirect success",
+        "delete_success": "Delete Redirect success."
+      }
+    },
+    "errors": {
+      "redirect": {
+        "not_found": "Redirect not found"
+      }
+    },
+    "modal": {
+      "edit_title": "Edit",
+      "preview_data": "Preview Data",
+      "parameters_get": "Parameters Get",
+      "parameters_post": "Parameters Post",
+      "cookies": "Cookies",
+      "server_variables": "Server Variables",
+      "close": "Close",
+      "create_title": "Create",
+      "type_label": "Type",
+      "source_label": "Source",
+      "target_label": "Target",
+      "status_code_label": "Status Code",
+      "id_label": "Id",
+      "active_label": "Active"
+    }
+  },
+  "sitemap": {
+    "title": "Site Map",
+    "title_data": {
+      "preview": "Preview",
+      "setting": "Setting"
+    },
+    "setting": {
+      "key": "Key",
+      "object": "Object",
+      "document": "Document",
+      "save": "Save changes",
+      "uncheckAll": "Uncheck All",
+      "checkAll": "Check All"
+    },
+    "preview": {
+      "root_label": "Root SiteMap Preview",
+      "root_title": "Root SiteMap",
+      "root_xml": "Root SiteMap XML",
+      "sub_label": "Sub SiteMap Preview",
+      "sub_title": "Sub SiteMap",
+      "sub_xml": "Sub SiteMap XML",
+      "iframe": "Iframe Preview"
+    }
+  }
+}

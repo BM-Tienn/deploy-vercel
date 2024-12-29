@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-menuGroup {
+  @apply mb-6;
+}
+.custom-menuGroup:last-child {
+  @apply mb-0;
+}
+
+.custom-menuGroup .ant-menu-item-group-title {
+  @apply p-0;
+}
+.custom-menuGroup .ant-menu-item-group-list {
+  @apply !px-1 !pt-1
+}
+.customSubmenu .ant-menu-submenu-title,
+.customSubmenu .ant-menu-item,
+.custom-menuItem {
+  @apply !m-0 !w-full !py-1 !flex !items-center !gap-3 !h-8 !mb-1;
+}
+.customSubmenu .ant-menu-title-content,
+.custom-menuItem .ant-menu-title-content {
+  @apply !m-0 h-fit;
+}
+.customSubmenu:last-child .ant-menu-submenu-title,
+.custom-menuItem:last-child {
+  @apply !m-0;
+}
+.customSubmenu.ant-menu-submenu-selected .ant-menu-submenu-title .stroke,
+.custom-menuItem.ant-menu-item-selected .stroke {
+  stroke: #1677ff;
+}
+.customSubmenu.ant-menu-submenu-selected .ant-menu-submenu-title .fill,
+.custom-menuItem.ant-menu-item-selected .fill {
+  fill: #1677ff;
+}
+.ant-menu-item.ant-menu-item-selected i{
+  color: #1677ff;;
+}
